@@ -2,14 +2,14 @@ import sqlite3
 import asyncio
 import json
 from typing import Any, List, Optional, Tuple, Union
-from better_sqlite3.errors import (
+from sqlite.errors import (
     DatabaseConnectionError,
     QueryExecutionError,
     RecordNotFoundError,
     TransactionError,
     InvalidQueryError,
 )
-from better_sqlite3.functions import register_array_support
+from sqlite.functions import register_array_support
 
 
 class AsyncSQLite:

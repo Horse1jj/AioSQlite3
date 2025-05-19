@@ -1,5 +1,5 @@
 [project]
-name = "better-sqlite3"
+name = "aiosqlite3"
 version = "0.1.0"
 description = "A Pythonic async SQLite3 wrapper using asyncio for aiohttp and other frameworks"
 authors = [{ name = "foste1jj", email = "foste1jj@dev.com" }]

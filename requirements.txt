@@ -1,0 +1,4 @@
+pytest 
+aiohttp 
+asyncio 
+psycopg2 

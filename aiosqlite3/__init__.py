@@ -2,17 +2,17 @@ import sqlite3
 import asyncio
 import json
 from typing import Any, List, Optional, Tuple, Union
-from sqlite.errors import (
+from aiosqlite3.errors import (
     DatabaseConnectionError,
     QueryExecutionError,
     RecordNotFoundError,
     TransactionError,
     InvalidQueryError,
 )
-from sqlite.functions import register_array_support
+from aiosqlite3.functions import register_array_support
 
 
-class AsyncSQLite:
+class aiosqlite3:
     def __init__(self, db_path: str):
         self.db_path = db_path
         self.connection: Optional[sqlite3.Connection] = None

@@ -1,6 +1,6 @@
 import asyncio
 import pytest
-from better_sqlite3 import AsyncSQLite
+from sqlite import AsyncSQLite
 
 @pytest.mark.asyncio
 async def test_crud():

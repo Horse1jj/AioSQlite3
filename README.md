@@ -22,7 +22,7 @@ pip install aiosqlite3
 import aiosqlite3
 
 async def main():
-    async with AsyncSQLite("example.db") as db:
+    async with aiosqlite3 ("example.db") as db:
         await db.execute("CREATE TABLE IF NOT EXISTS users (id INTEGER PRIMARY KEY, name TEXT)")
         await db.execute("INSERT INTO users (name) VALUES (?)", ("Bob",))
         users = await db.fetchall("SELECT * FROM users")

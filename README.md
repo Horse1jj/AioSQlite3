@@ -13,13 +13,13 @@
 ## Installation
 
 ```bash
-pip install better-sqlite3
+pip install aiosqlite3
 ```
 
 ## Usage
 
 ```python
-from better_sqlite3 import AsyncSQlite
+import aiosqlite3
 
 async def main():
     async with AsyncSQLite("example.db") as db:

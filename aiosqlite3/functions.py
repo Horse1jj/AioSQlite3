@@ -15,7 +15,7 @@ def convert_array(text):
         return []
 
 
-def register_array_support(connection: sqlite3.Connection):
+def array(connection: sqlite3.Connection):
     """
     Register array adapters and converters for the connection.
     Should be called right after connecting to the database.

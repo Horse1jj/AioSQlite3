@@ -1,4 +1,4 @@
-# better-sqlite3
+# AioSqlite3
 
 **An async wrapper around SQLite3 using `asyncio.to_thread` for thread-safe and aiohttp-compatible usage.**
 

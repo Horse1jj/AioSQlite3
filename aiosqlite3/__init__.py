@@ -9,7 +9,7 @@ from aiosqlite3.errors import (
     TransactionError,
     InvalidQueryError,
 )
-from aiosqlite3.functions import register_array_support
+from aiosqlite3.functions import array
 
 
 class aiosqlite3:
